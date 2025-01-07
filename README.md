@@ -11,7 +11,7 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
 - **What it shows**: Displays high-level metrics for total revenue and total hours billed during the selected period.
 - **How it's built**: SQL queries were used to calculate total revenue and total hours from raw financial data.
 - **Visualization**:
-  ![Total Revenue and Hours](images/totalhours_revenue.jpg)
+  ![Total Revenue and Hours](Finance%20KPI/images/totalhours_revenue.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
 - **What it shows**: A bar chart and a pie chart visualizing revenue distribution across regions (Europe, Americas, APAC, EMEA).
 - **How it's built**: SQL queries were used to group and sum revenue by region.
 - **Visualization**:
-  ![Revenue by Region](images/rev_byregion.jpg)
+  ![Revenue by Region](Finance%20KPI/images/rev_byregion.jpg)
 
 ---
 
@@ -27,7 +27,7 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
 - **What it shows**: A horizontal bar chart highlighting the revenue contributions of departments such as Tax, Audit, Management, Advisory, and Legal.
 - **How it's built**: SQL queries were used to group and sum revenue by department.
 - **Visualization**:
-  ![Revenue by Department](images/department.jpg)
+  ![Revenue by Department](Finance%20KPI/images/department.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
 - **What it shows**: A line graph that tracks the percentage increase or decrease in revenue month-over-month.
 - **How it's built**: SQL queries calculated the month-over-month percentage changes using lag functions for time-based data comparison.
 - **Visualization**:
-  ![Month-on-Month Revenue Growth](images/monthonmonth.jpg)
+  ![Month-on-Month Revenue Growth](Finance%20KPI/images/monthonmonth.jpg)
 
 ---
 
@@ -43,7 +43,7 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
 - **What it shows**: A table listing the top clients and their respective revenue contributions.
 - **How it's built**: SQL queries were used to aggregate client data and rank clients by total revenue.
 - **Visualization**:
-  ![Top Clients](images/revenue_total_client.jpg)
+  ![Top Clients](Finance%20KPI/images/revenue_total_client.jpg)
 
 ---
 
@@ -54,13 +54,13 @@ This project is a **Finance KPI Dashboard** developed in **Power BI**, utilizing
   - Filter by **Month**: Drill down into specific months for more detailed insights.
 - **How it's built**: SQL queries dynamically filter data based on user selections.
 - **Visualization**:
-  ![Interactive Filters - Region, Quarter, and Month](images/quarter_month.jpg)
+  ![Interactive Filters - Region, Quarter, and Month](Finance%20KPI/images/quarter_month.jpg)
 
 ---
 
 ### Full Dashboard
 - A consolidated view of all key metrics and visualizations in one interactive dashboard.
-![Full Dashboard View](images/full_dashboard.jpg)
+![Full Dashboard View](Finance%20KPI/images/full_dashboard.jpg)
 
 ---
 
@@ -80,7 +80,7 @@ This project utilized the following tools:
 
 ---
 
-## Future Enhancements
-- Add predictive analytics for revenue forecasting.
-- Enable real-time data integration for up-to-date financial tracking.
-- Include drill-through functionality for
+## Acknowledgments
+- Developed using **Power BI**, **SQL**, and **Excel**.
+- Inspired by the need for streamlined financial reporting and interactive dashboards.
+
